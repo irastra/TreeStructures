@@ -11,7 +11,7 @@ using namespace std;
 int main() {
 	// int cmd_list[] = { 0, 1, 0, 2, 0, 3, 0, 4, 0, 5};
 	//Node* root = MonkeyTestCmdTranslator(cmd_list, sizeof(cmd_list) / sizeof(int), InsertValueToSearchTree, DelNodeFromSearchTree);
-	cout << ceil(log2(1000000)) << endl;
+	//cout << ceil(log2(1000000)) << endl;
 	g_check_ruler_func = SearchTreeCheckFunc;
 	MokeyTest(1, 10000, InsertValueToSearchTree, DelNodeFromSearchTree);
 	g_check_ruler_func = BlanceTreeCheckFunc;
